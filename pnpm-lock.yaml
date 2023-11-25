@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      logicomp:
+        specifier: workspace:^
+        version: link:packages/logicomp
       vue:
         specifier: ^3.2.25
         version: 3.3.9(typescript@5.3.2)

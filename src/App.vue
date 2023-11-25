@@ -14,6 +14,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
       alt="powered-by"
       src="./assets/powered-by-vitawind-bright.png"
     />
+    <LogiButton class="border">123</LogiButton>
   </div>
 </template>
 
