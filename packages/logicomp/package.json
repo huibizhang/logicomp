@@ -1,6 +1,6 @@
 {
   "name": "logicomp",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "./src/index.ts",
   "license": "MIT"
 }

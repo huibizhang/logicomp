@@ -8,5 +8,8 @@
   },
   "editor.quickSuggestions": {
     "strings": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
   }
 }
