@@ -5,12 +5,14 @@ const props = withDefaults(
   defineProps<{
     name?: string;
     type?: "text" | "number" | "range";
-    modelValue: modelValue;
+    modelValue?: modelValue;
+    class?: string | Array<string>
   }>(),
   {
     name: "",
     type: "text",
     modelValue: "",
+    class: ""
   }
 );
 
@@ -26,5 +28,5 @@ const update = (evt: Event) => {
 </script>
 
 <template>
-  <input :name="name ?? ''" :type="type" :value="modelValue" @input="update" />
+  <input :name="name ?? ''" :type="type" :value="modelValue" @input="update" :class="class" />
 </template>
